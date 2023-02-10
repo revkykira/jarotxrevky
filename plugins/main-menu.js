@@ -336,7 +336,7 @@ return conn.sendMessage(m.chat, listMessage, { quoted: fkontak, mentions: await 
 	 message: { "contactMessage": { "title":"sri","h": `haloo`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
 	}
     //------------------ DOCUMENT
-let gh = 'https://github.com/JarotOffc?tab=repositories'
+let gh = 'https://github.com/gaada.?tab=repositories'
 let buttonMessage= {
 'document':{'url':gh},
 'mimetype': 'application/pdf',
@@ -346,12 +346,12 @@ let buttonMessage= {
 'contextInfo':{
 'externalAdReply':{
 'showAdAttribution': true, 
-'mediaUrl': 'https://instagram.com/jarotr_',
+'mediaUrl': 'www.instagram.com/revkyrey',
 'title': 'Made Revky',
 'body':'',
 'mediaType': 2,
 'thumbnail': fs.readFileSync('./thumbnail.jpg'),
-'sourceUrl': 'https://instagram.com/jarotr_'}},
+'sourceUrl': 'www.instagram.com/revkyrey'}},
 'caption': `             *『 D A S H B O A R D』*`,
 'footer': text,
 'buttons':[
