@@ -10,8 +10,6 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN node index.js
-
 COPY . .
 
 CMD ["npm", "start"]
