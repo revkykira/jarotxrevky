@@ -8,7 +8,7 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
 
-COPY node_modules
+RUN yarn
 
 COPY package.json .
 
